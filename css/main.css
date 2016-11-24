@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+img:first-child {
+
+}
+
+img:nth-child(2) {
+  display: none;
+}
+
+img:nth-child(5) {
+  display: none;
+}
+
+@media only screen and (min-width: 25em) {
+  img:first-child {
+    display: block;
+  }
+
+  img:nth-child(2) {
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+
+  img:nth-child(3) {
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+
+  img:nth-child(4) {
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+
+  img:nth-child(5) {
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  img:first-child {
+    display: block;
+  }
+
+  img:nth-child(2) {
+    display: inline-block;
+    float: left;
+    width: 33.333%;
+  }
+
+  img:nth-child(3) {
+    display: inline-block;
+    float: left;
+    width: 33.333%;
+  }
+
+  img:nth-child(4) {
+    display: inline-block;
+    float: left;
+    width: 33.333%;
+  }
+
+  img:nth-child(5) {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  img:first-child {
+    display: inline-block;
+    float: left;
+    width: 66.6666%;
+  }
+
+  img:nth-child(2) {
+    display: inline-block;
+    float: left;
+    width: 33.3333%;
+  }
+
+  img:nth-child(3) {
+    display: inline-block;
+    float: left;
+    width: 33.3333%;
+  }
+
+  img:nth-child(4) {
+    display: inline-block;
+    float: left;
+    width: 33.3333%;
+  }
+
+  img:nth-child(5) {
+    display: inline-block;
+    float: left;
+    width: 33.3333%;
+  }
+}
