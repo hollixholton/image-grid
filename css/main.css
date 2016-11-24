@@ -24,9 +24,6 @@ img {
   display: block;
   width: 100%;
 }
-img:first-child {
-
-}
 
 img:nth-child(2) {
   display: none;
@@ -37,6 +34,7 @@ img:nth-child(5) {
 }
 
 @media only screen and (min-width: 25em) {
+
   img:first-child {
     display: block;
   }
@@ -67,6 +65,7 @@ img:nth-child(5) {
 }
 
 @media only screen and (min-width: 38em) {
+
   img:first-child {
     display: block;
   }
@@ -95,6 +94,7 @@ img:nth-child(5) {
 }
 
 @media only screen and (min-width: 60em) {
+
   img:first-child {
     display: inline-block;
     float: left;
